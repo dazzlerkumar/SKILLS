@@ -17,7 +17,7 @@ Map all testable surfaces in the application and identify what's tested vs. what
 Use the `Explore` subagent to catalog:
 
 **Routes/Pages:**
-- Scan route definitions (Next.js `app/`, React Router config, Vue Router, etc.)
+- Scan route definitions (Next.js `app/`, React Router config, etc.)
 - List all user-facing pages with their paths
 
 **Components:**
