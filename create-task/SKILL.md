@@ -28,10 +28,10 @@ The task file must follow this exact structure:
 
 ---
 
-## 📖 Story Statement
+## Story Statement
 As **[Persona]**, I want to [action] so that [benefit].
 
-## 💼 Business Context
+## Business Context
 [Explain the business logic, why this task is needed, and how it fits into the overall goal of the project.]
 
 ---
@@ -39,6 +39,7 @@ As **[Persona]**, I want to [action] so that [benefit].
 ## 🛠 Technical Implementation Plan (TDD Methodology)
 
 ### Phase 1: Red (Test First)
+- [ ] **Unit Test Creation": create unit test file in 
 - [ ] **E2E Test Creation**: Create `tests/e2e/[path]/[module].spec.ts`.
     - [Specific test cases to implement]
 - [ ] **Execution**: Run the tests and confirm they fail.
@@ -56,13 +57,13 @@ As **[Persona]**, I want to [action] so that [benefit].
 
 ---
 
-## ✅ Acceptance Criteria (AC)
+## Acceptance Criteria (AC)
 - [ ] **AC-001: [Title]**: [Description]
 - [ ] [More ACs as needed]
 
 ---
 
-## 🧪 QA & Testing Scenarios (Playwright)
+## QA & Testing Scenarios (Playwright)
 
 ### Scenario 1: [Short Title]
 - **Given** [state]
@@ -71,7 +72,7 @@ As **[Persona]**, I want to [action] so that [benefit].
 
 ---
 
-## 🏁 Definition of Done (DoD)
+## Definition of Done (DoD)
 - [ ] E2E Playwright tests pass for all defined scenarios.
 - [ ] Form payload strictly adheres to the API specification.
 - [ ] UI is responsive and matches the premium design aesthetic.
@@ -80,7 +81,7 @@ As **[Persona]**, I want to [action] so that [benefit].
 
 ## Guidelines for Content
 
-1. **Story Statement**: Use standard User Story format. Ensure it identifies the persona (e.g., "Rahul (ops admin)").
+1. **Story Statement**: Use standard User Story format. Ensure it identifies the persona (e.g., "Deepak").
 2. **Business Context**: Provide enough detail for any developer to understand the "why".
 3. **TDD Methodology**:
    - **Phase 1**: Always start with an E2E test plan.
@@ -89,3 +90,4 @@ As **[Persona]**, I want to [action] so that [benefit].
 4. **Acceptance Criteria**: Must be clear and binary (pass/fail).
 5. **Testing Scenarios**: Use Given-When-Then format to match Playwright specs.
 6. **Aesthetics**: Always mention premium design, smooth transitions, and feedback (sonner) in the DoD or implementation plan.
+7. **Consistency**: Follow the exact structure and formatting for all tasks to maintain clarity and uniformity across the project documentation. Do not use any icons or emojis in the task file.
