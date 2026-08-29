@@ -9,6 +9,14 @@ Turns a description of a product (its modules, user flows, and optionally screen
 self-contained `.html` file: a scrollable, anchor-linked tour with a top-level module relation
 diagram, per-module flow diagrams, and step-by-step screen walkthroughs.
 
+## Check for existing specs first
+
+Before drafting anything, look for an existing spec or `/docs` in the project — check for files
+like `spec/`, `docs/`, `*.md` (PRD, requirements, feature briefs) or any `specification`/`task`
+documents. If you find one, base the tour on it. If you don't find anything, it's fine to ask the
+user once whether they have a spec file they'd like you to use — but this is **not mandatory**;
+if they say no or don't respond, proceed with what you have.
+
 ## When input is incomplete
 
 Don't stall waiting for a perfect spec. If the user gives a rough description, draft reasonable
